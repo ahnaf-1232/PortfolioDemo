@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Demo</title>
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero Section with Carousel -->
+    <section id="hero" class="w-full">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="hero bg-base-200">
+                    <div class="hero-content text-center">
+                        <div class="max-w-md">
+                            <h1 class="text-5xl font-bold">Bridging Theory & Industry</h1>
+                            <p class="py-6">
+                                Lecturer of Software Engineering combining academic excellence with hands-on DevOps and
+                                cloud infrastructure expertise.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-end">
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="hero bg-base-200">
+                    <div class="hero-content text-center">
+                        <div class="max-w-md">
+                            <h1 class="text-5xl font-bold">Cloud & DevOps Solutions</h1>
+                            <p class="py-6">
+                                Building scalable infrastructure using AWS, Docker, Kubernetes, and Terraform.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-start">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-8 w-full mx-auto">
+        <div class="hero bg-base-200">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="./public/images/pp.png" class="max-w-60 rounded-lg shadow-2xl" />
+                <div>
+                    <h1 class="text-5xl font-bold">About Me</h1>
+                    <div class="divider"></div>
+                    <p class="py-6">
+                        I am a Lecturer in the Department of Software Engineering at Daffodil International University.
+                        I
+                        hold a BSc in Software Engineering from the University of Dhaka's Institute of Information
+                        Technology, where I am also actively pursuing my Master's degree.
+                    </p>
+                    <p class="py-6">
+                        My technical journey is rooted in a deep preference for Linux environments and spans across
+                        academia
+                        and industry. Beyond the classroom, I am deeply invested in DevOps engineering.
+                    </p>
+                    <button class="btn btn-primary">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Mission & Vision -->
+    <section id="career" class="py-8 w-full mx-auto">
+        <div class="bg-base-200 px-8 py-8">
+            <h2 class="text-5xl font-bold mb-12 text-center">Career Mission & Vision</h2>
+            <div class="divider"></div>
+            <div class="flex flex-col md:flex-row gap-8 justify-center align-items-center">
+                <div class="card w-96 bg-base-100 card-md shadow-sm">
+                    <div class="card-body">
+                        <div class="badge badge-dash badge-primary">Primary</div>
+                        <h2 class="card-title">Educating the Next Generation</h2>
+                        <p>To deliver high-quality, practical academic instruction in core computing subjects like Data
+                            Communication, Theory of Automata, and Web Technology, empowering students to build robust
+                            software systems.
+                        </p>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 card-md shadow-sm">
+                    <div class="card-body">
+                        <div class="badge badge-dash badge-secondary">Secondary</div>
+                        <h2 class="card-title">Advancing Engineering Practices</h2>
+                        <p>To continually evolve as an educator and technologist, advancing research in software
+                            engineering and pioneering scalable cloud solutions that bridge academic concepts with
+                            real-world infrastructure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Expertise -->
+    <section id="services" class="py-8 w-full mx-auto">
+        <div class="bg-base-200 px-8 py-8">
+            <h2 class="text-5xl font-bold mb-12 text-center">Core Expertise</h2>
+            <div class="divider"></div>
+            <div class="flex flex-col md:flex-row gap-8 justify-center align-items-center">
+                <div class="card w-96 bg-base-100 card-md shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title">Academic Instruction</h2>
+                        <p>Comprehensive curriculum delivery for Information System Security, Networking, and Automata
+                        </p>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 card-md shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title">DevOps Implementation</h2>
+                        <p>Infrastructure as code and CI/CD pipeline deployments using Docker, Kubernetes, and
+                            Terraform.
+                        </p>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 card-md shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title">Cloud Architecture</h2>
+                        <p>Designing and managing server deployments and monitoring solutions on AWS (EC2, Lambda,
+                            CloudWatch).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback & Endorsements -->
+    <section id="feedback" class="py-8 w-full mx-auto">
+        <div class="bg-base-200 px-8 py-8">
+            <h2 class="text-5xl font-bold mb-12 text-center">Feedback & Endorsements</h2>
+            <div class="divider"></div>
+            <div class="flex flex-col md:flex-row gap-8 justify-center align-items-center">
+                <div class="card w-120 card-side bg-base-100 shadow-sm">
+                    <div class="w-full rounded-lg">
+                        <figure class="shrink-0">
+                            <img src="./public/images/f1.jpg" alt="Movie" />
+                        </figure>
+                    </div>
+                    <div class="card-body">
+                        <p>The complex networking concepts in our Data Communication classes were
+                            broken down perfectly. The hands-on labs were incredibly helpful for understanding the
+                            theory.</p>
+                        <h2 class="card-title">Student, Daffodil International University</h2>
+                    </div>
+                </div>
+                <div class="card w-120 card-side bg-base-100 shadow-sm">
+                    <div class="w-full rounded-lg">
+                        <figure class=" shrink-0">
+                            <img src="./public/images/f2.jpg" alt="Movie" />
+                        </figure>
+                    </div>
+                    <div class="card-body">
+                        <p>A highly capable professional who successfully handled our internal
+                            deployments and CI/CD pipeline implementations during his tenure with our engineering team.
+                        </p>
+                        <h2 class="card-title">Manager, Brain Station 23
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
